@@ -67,6 +67,15 @@ p {
 .project.description {
   padding: 120px 60px;
 }
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 48px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -78,6 +87,13 @@ p {
 
   h3 {
     font-size: 15px;
+  }
+
+  .content h1 {
+    font-size: 44px;
+  }
+  .content h2 {
+    font-size: 40px;
   }
   .btn {
     font-size: 15px;
@@ -94,10 +110,6 @@ p {
     padding: 60px 20px;
   }
 
-  .content h1 {
-    font-size: 64px;
-    line-height: 80px;
-  }
   .content h2 {
     font-size: 18px;
     font-family: var(--default-heading-font-family);
